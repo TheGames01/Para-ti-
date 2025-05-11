@@ -28,11 +28,14 @@ height: auto;
 width: auto;}
 .in-flex:first-child{ 
 flex:2; 
-padding: 25px;
+align-content:center ;
+padding: auto;
+border: 200px;
 margin-bottom: 0px;}
 
 .in-flex div{ padding: 25px;
-margin: 20px;} 
+margin: auto;
+border: 200px;} 
     h1{
 font-family: 'Trebuchet MS';
   color: rgb(0, 0, 0);
@@ -43,9 +46,11 @@ font-family: 'Trebuchet MS';
   padding: 20px;
   border: 10px double rgb(3, 3, 3);
   display: inline-block;
-  margin: 40px;
+  margin: 0.5%;
   background: linear-gradient(rgb(241, 241, 238, )) ;
 flex-wrap: wrap;
+
+
 } 
 
 .card:hover{
